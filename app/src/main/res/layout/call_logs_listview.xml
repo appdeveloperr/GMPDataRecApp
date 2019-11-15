@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/callDateHead"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="244dp"
+        android:text="Call Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/callDateTv"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="191dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callDateHead" />
+
+    <TextView
+        android:id="@+id/callDurationHead"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="244dp"
+        android:text="Call Duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callDateTv" />
+
+    <TextView
+        android:id="@+id/callDuration"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="191dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callDurationHead" />
+
+    <TextView
+        android:id="@+id/callTypeHead"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="244dp"
+        android:text="Call Type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callDuration" />
+
+    <TextView
+        android:id="@+id/callType"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="191dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callTypeHead" />
+
+    <TextView
+        android:id="@+id/direction_head"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="244dp"
+        android:text="Direction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callType" />
+
+    <TextView
+        android:id="@+id/callDirection"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="191dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direction_head" />
+
+    <TextView
+        android:id="@+id/phoneNumberHead"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="244dp"
+        android:text="Cell No:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callDirection" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="173dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="191dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberHead" />
+</androidx.constraintlayout.widget.ConstraintLayout>
